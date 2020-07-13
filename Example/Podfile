@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IBInspectableManager_Example' do
+  pod 'IBInspectableManager', :path => '../'
+
+  target 'IBInspectableManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
