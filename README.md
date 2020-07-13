@@ -22,7 +22,7 @@ pod 'IBInspectableManager'
 
 ## Author
 
-HemantPandagre, hemant.pandagre@innoeye.com
+HemantPandagre, hemantpandagre.techie@gmail.com
 
 ## License
 

@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## IBInspectableManager
 
-Copyright (c) 2020 HemantPandagre <hemant.pandagre@innoeye.com>
+Copyright (c) 2020 HemantPandagre <hemantpandagre.techie@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
