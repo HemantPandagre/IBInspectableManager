@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+   iOS 10.0
 ## Installation
 
 IBInspectableManager is available through [CocoaPods](https://cocoapods.org). To install
