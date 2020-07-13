@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import IBInspectableManager
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customButton: IBUIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+                
+        //You can customise elements properties
+        customButton.setTitle("Click me", for: .normal)
+        customButton.cornerRadius = 20.0
+        customButton.borderWidth = 2.0
+        customButton.shadowColor = .blue
+        
     }
 
     override func didReceiveMemoryWarning() {

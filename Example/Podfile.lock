@@ -1,0 +1,16 @@
+PODS:
+  - IBInspectableManager (0.1.0)
+
+DEPENDENCIES:
+  - IBInspectableManager (from `../`)
+
+EXTERNAL SOURCES:
+  IBInspectableManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IBInspectableManager: 0b8288b15ed6168e8e9be51339f5991299419a8e
+
+PODFILE CHECKSUM: 99e3be5da494917a28456efc6d752a9bd735518f
+
+COCOAPODS: 1.9.3

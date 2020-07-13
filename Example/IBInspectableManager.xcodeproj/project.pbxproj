@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		08C9F7515A8F49D2970DFBA9 /* Pods_IBInspectableManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBInspectableManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4A29F9D55D70E3046212B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1B4A29F9D55D70E3046212B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		37249C70BB843CE58115FDFA /* Pods-IBInspectableManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBInspectableManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IBInspectableManager_Tests/Pods-IBInspectableManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IBInspectableManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBInspectableManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* IBInspectableManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBInspectableManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		623AB361C3714CAD65244A60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		623AB361C3714CAD65244A60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		85DDAAB8AE988BAF19659B1A /* Pods-IBInspectableManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBInspectableManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-IBInspectableManager_Example/Pods-IBInspectableManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8A5DB5A596C9ABE10B3FE75F /* Pods-IBInspectableManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBInspectableManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-IBInspectableManager_Tests/Pods-IBInspectableManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A67D028A91D4C8C25BB4853A /* Pods_IBInspectableManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBInspectableManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC29CCF465249066243A14CD /* IBInspectableManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IBInspectableManager.podspec; path = ../IBInspectableManager.podspec; sourceTree = "<group>"; };
+		DC29CCF465249066243A14CD /* IBInspectableManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IBInspectableManager.podspec; path = ../IBInspectableManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E230DD5FDDB039036442B2AB /* Pods-IBInspectableManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBInspectableManager_Example.release.xcconfig"; path = "Target Support Files/Pods-IBInspectableManager_Example/Pods-IBInspectableManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				37249C70BB843CE58115FDFA /* Pods-IBInspectableManager_Tests.debug.xcconfig */,
 				8A5DB5A596C9ABE10B3FE75F /* Pods-IBInspectableManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

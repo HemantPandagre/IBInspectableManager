@@ -1,42 +1,14 @@
-#
-# Be sure to run `pod lib lint IBInspectableManager.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'IBInspectableManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IBInspectableManager.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.summary          = 'IBInspectableManager is a powerful designing tool for storyboard'
+  s.description      = 'IBInspectableManager is a powerful designing tool for storyboard. You can live render GUI on storyboard with no any issue as well as use all properties directly just like cornorRadius, borderWidth, borderColor etc.'
   s.homepage         = 'https://github.com/HemantPandagre/IBInspectableManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'HemantPandagre' => 'hemant.pandagre@innoeye.com' }
+  s.author           = { 'Hemant Pandagre' => 'hemantpandagre.techie@gmail.com' }
   s.source           = { :git => 'https://github.com/HemantPandagre/IBInspectableManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '11.0'
   s.source_files = 'IBInspectableManager/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'IBInspectableManager' => ['IBInspectableManager/Assets/*.png']
-  # }
+  s.swift_version = '5.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
