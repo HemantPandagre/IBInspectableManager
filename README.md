@@ -23,7 +23,7 @@ it, simply add the following line to your Podfile:
 ## Example
 
  ```ruby
-   //You can customise elements properties Directly
+   //You can customise element's properties Directly
 
    let customButton = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 40))
    customButton.setTitle("Click me", for: .normal)
