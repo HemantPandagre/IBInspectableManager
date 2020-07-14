@@ -8,6 +8,8 @@
 ## Description
  IBInspectableManager gives you live rendering feature on your storyboard as well as direct support some properties which we have use generally just like cornorRaduius, borderColor, borderWidth, shadow etc. It is supportable on more elements like UIView, UIImageView, UIButton, UITableView,UILabel, UIScrollView, UITextfield, UITextView etc.
 
+https://github.com/HemantPandagre/IBInspectableManager/blob/master/ezgif.com-optimize.gif
+
 ## Installation
 
 IBInspectableManager is available through [CocoaPods](https://cocoapods.org). To install
