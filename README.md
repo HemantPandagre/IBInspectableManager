@@ -23,7 +23,10 @@ it, simply add the following line to your Podfile:
 ## Example
 
  ```ruby
-   //You don't need to write code when you use this framework, All attributes available in Inspectable section in storyboard but if you want to create any element(UIButton, UIView etc.) programmatically then you use our custom attributes just like below code: 
+   // You don't need to write code when you use this framework.
+   // All attributes available in Inspectable section in storyboard but 
+   // if you want to create any element(UIButton, UIView etc.) programmatically then 
+   // you use our custom attributes just like below code: 
 
    let customButton = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 40))
    customButton.setTitle("Click me", for: .normal)
